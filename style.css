@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #faf4f4;
+}
+
+body{
+  background-color: #3e7cb1;
+}
+
+.top{
+    text-align: center;
+}
+
+h1{
+    font-size: 2.6rem;
+    margin-bottom: 1rem;
+  font-weight: 500;
+}
+
+h3{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 3rem;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.column1{
+    text-align: center;
+}
+
+img{
+    width: 30rem;
+}
+
+.column1 ul{
+    margin-top: 2rem;
+    padding: 0;
+}
+
+.column1 ul li{
+    margin-bottom: 1.3rem;
+    list-style-type: none;
+}
+
+button{
+    padding: 0.8rem 0;
+    border-radius: 0.3rem;
+  width: 300px;
+  font-size: 1rem;
+  position: relative;
+  font-weight: bold;
+}
+
+
+
+#btn1{
+    color: #f1eeee;
+    border: 2px solid #fbfaf9;
+    background-color:#fb6e23;
+}
+
+#btn1::before{
+  content: '';
+  position: absolute;
+  background: #ff00ae;
+  width: 0;
+  height: 101%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: all 0.5s ease;
+}
+
+#btn1:hover::before{
+  cursor: pointer;
+  width: 101%;
+  box-shadow: 0px 0px 10px 5px #556abe;
+}
+
+#btn2{
+    color: #f6eeee;
+    border: 2px solid #ee8917;
+    background-color: #ee8917;
+}
+
+#btn2::before{
+  content: '';
+  position: absolute;
+  background: #556abe;
+  width: 0;
+  height: 101%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+#btn2:hover::before{
+  cursor: pointer;
+  width: 101%;
+  box-shadow: 0px 0px 10px 5px #ff00ae;
+}
+
+.column2 h2{
+  font-size: 1.7rem;
+  font-weight: 550;
+  margin-bottom: 1rem;
+}
+
+.column2 ol{
+  margin-bottom: 1.5rem;
+}
+
+.column2 ul, ol{
+  margin-left: 2.5rem;
+}
+
+.column2 li{
+  font-size: 1.2rem;
+}
+#btn2{
+    color: #f8f1f1;
+    border: 2px solid #f8f9fc;
+    background-color: #d92417;
+}
+
+#btn2::before{
+  content: '';
+  position: absolute;
+  background: #556abe;
+  width: 0;
+  height: 101%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+#btn2:hover::before{
+  cursor: pointer;
+  width: 101%;
+  box-shadow: 0px 0px 10px 5px #ff00ae;
+}
+.column2 h2{
+  font-size: 1.7rem;
+  font-weight: 550;
+  margin-bottom: 1rem;
+}
+
+.column2 ol{
+  margin-bottom: 1.5rem;
+}
+
+.column2 ul, ol{
+  margin-left: 2.5rem;
+}
+
+.column2 li{
+  font-size: 1.2rem;
+}
